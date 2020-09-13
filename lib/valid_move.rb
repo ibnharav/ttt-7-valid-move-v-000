@@ -1,10 +1,9 @@
 # code your #valid_move? method here
 def valid_move?(board, position)
-  if position > 8 || < 0
-    false
-  end
-  if position_taken?(board, position) == true
-    true
+  if position between(0,8)
+    if position_taken?(board, position) == true
+      true
+    end
   else
     false
   end
