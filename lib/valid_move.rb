@@ -17,6 +17,6 @@ if board[position] == " " || board[position] == "" || board[position] == nil
   elsif board[position] == "X" || board[position] == "O" 
     true
 else
-   true
+   false
 end  
 end
